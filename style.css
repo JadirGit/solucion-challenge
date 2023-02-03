@@ -153,5 +153,15 @@ font-family: 'Play', sans-serif;
 
 }
 
-
+@media (max-width:768px){
+    .header .container{
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    .boxes .container{
+        display: block;
+        text-align: center;
+    }
+}
 
