@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style2.css">
+    <title>Chalenge</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="./img/Vector.png" alt="logo alura">
+            <div>
+                Encriptador
+            </div>
+
+        </div>
+
+    </header>
+    <main >
+        <section class="boxes">
+         
+
+            <div class="container">
+                <div class="box">
+                    <textarea class="texto-area" name="" id="txtEncriptar" cols="30" rows="10">Ingreso texto aqui</textarea>
+                   
+                     <div>
+                        <h5>Solo letras minusculas y sin acento</h5>
+                    </div>
+                    <div class="botones">
+                        <button class="btn-encriptar"  onclick="btnEncriptar()">Encriptar</button>
+                        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                    </div>
+                </div>
+                 
+                <div class="box">
+                    <textarea class="texto-area-2" name="" id="txtMensaje" cols="20" rows="10"></textarea>
+                    <div>
+                        <button class="btnCopiar" onclick="btnCopiar()">Copiar</button>
+                    </div>
+                </div>
+            </div>
+                
+               
+            
+        </section>
+    </main>
+        <script src="./script.js"></script>
+</body>
+</html>

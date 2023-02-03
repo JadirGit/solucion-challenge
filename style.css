@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    background-color: rgb(141, 137, 137);
+    color: rgb(50, 6, 194);
+}
+img{
+    max-width: 100%;
+}
+h1{
+    margin-bottom: 15px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+
+    background: yellowgreen;
+    margin-bottom: 40px;
+    min-height: 200px;
+    font-weight: bold;
+    box-shadow: 30px 20px 5px rgba(23, 22, 22, 0.4);
+}
+header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container .logo{
+    flex-basis:100px;
+
+}
+header .container div{
+    font-size: 60px;
+
+}
+
+
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.box{
+
+  
+ 
+   margin: 10px 10px;
+   box-shadow: 0 3px 5px rgba(0,0,0, 10.6);
+   padding: 15px 15px;
+
+
+}
+
+.container .box:nth-last-of-type(1){
+  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.box h5{
+    text-align: center;
+    color: aliceblue;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.box .texto-area{
+min-width:  400px;
+min-height: 400px;
+background: black;
+color: rgb(55, 230, 104);
+font-size: large;
+font-family: 'Play', sans-serif;
+
+}
+.box .texto-area-2{
+    min-width:  400px;
+    min-height: 400px;
+    background: black;
+    color: rgb(55, 230, 104);
+    font-size: large;
+    margin-bottom: 20px;
+    font-family: 'Play', sans-serif;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+  
+   
+}
+.botones .btn-encriptar{
+  height: 50px;
+  font-size: x-large;
+ flex-basis: 200px;
+ border:4px yellow solid;
+ background: rgb(180, 179, 179);
+ font-weight: bold;
+ border-radius: 10%;
+}
+
+
+.botones .btn-desencriptar{
+    height: 50px;
+    font-size: x-large;
+    flex-basis: 200px;
+    border:4px yellow solid ;
+    border-radius: 10%;
+ background: rgb(180, 179, 179);
+ font-weight: bold;
+}
+.botones .btn-encriptar:hover{
+    border:6px rgb(42, 232, 17) solid ;
+    font-size: 25px;
+    background: black;
+    color: greenyellow;
+    font-size: 25px;
+
+}
+.botones .btn-desencriptar:hover{
+    border:6px rgb(42, 232, 17) solid ;
+    background: black;
+    color: greenyellow;
+}
+
+.btnCopiar{
+    height: 50px;
+    font-size: x-large;
+    flex-basis: 200px;
+    border:4px yellow solid ;
+    border-radius: 10%;
+ background: rgb(180, 179, 179);
+ font-weight: bold;
+
+
+}
+ .btnCopiar:hover{
+    border:6px rgb(42, 232, 17) solid ;
+    font-size: 25px;
+    background: black;
+    color: greenyellow;
+    font-size: 25px;
+
+}
+
+
+
